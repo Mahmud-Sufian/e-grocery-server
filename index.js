@@ -7,7 +7,7 @@ const admin = require("firebase-admin");
 require('dotenv').config();
 
 
-var serviceAccount = require("./configs/e-grocery-dcb43-firebase-adminsdk-sf35e-faaca63765.json");
+var serviceAccount = require("./configs/grocery-c8cc1-firebase-adminsdk-g8rrc-79692a7a64.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
